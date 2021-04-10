@@ -106,10 +106,17 @@ body {
     color: #fff;
   }
   @media screen and (max-width: 992px) {
-      /* id tags */
-    
-      
+     header,main {
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     
+     aside {
+         width: 25%
+     }
+     
   }
+
   @media screen and (max-width: 768px) {
     header, main {
       flex-direction: column;
