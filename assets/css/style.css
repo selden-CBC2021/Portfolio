@@ -66,29 +66,32 @@ body {
     flex: 1 1 0;
     padding-right: 5%;
   }
-  /* div {
+  div {
       display: flex;
       justify-content: center;
-  } */
+      flex-direction: column;
+    
+  }
+
   article {
     border-bottom: 1px solid #d8a47f;
   }
   
- 
   article p {
     margin: 2% 0;
   }
   
-  
-  article ul {
-    margin-left: 5%;
-    list-style: square;
-    font-family: monospace;
-  }
-  
   aside {
+    flex-wrap: wrap;
     width: 25%;
     align-items: center;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin: auto;
   }
   
   input,
@@ -131,4 +134,15 @@ body {
       text-align: center;
     }
   }
-  
+
+  /* It won't display in 2 x 2 grid  */
+  @media screen and (max-width: 576px) {
+    #proj2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 25%;
+      background-color: darkturquoise;
+    }
+  }
