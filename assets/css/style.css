@@ -1,10 +1,14 @@
 * {
-    background-color: lightsalmon;
+    background-color: white;
 }
-
-main {
+ main {
     display: flex;
-}
+    flex: 1 1 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 24px;
+  }
 
 body {
     display: flex;
@@ -31,12 +35,12 @@ body {
   }
   
   
-  h2 {
+  /* h2 {
     margin: 3% 0;
     font-size: 180%;
     font-family: serif;
   }
-  
+   */
   
   h3 {
     font-size: 150%;
@@ -47,6 +51,7 @@ body {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    padding: 12px;
   }
   
   nav a {
@@ -55,12 +60,7 @@ body {
     text-decoration: none;
   }
   
-  main {
-    display: flex;
-    flex: 1 1 0;
-    max-width: 1200px;
-    margin: 2% auto;
-  }
+ 
   
   section {
     flex: 1 1 0;
@@ -84,7 +84,8 @@ body {
   aside {
     flex-wrap: wrap;
     width: 25%;
-    align-items: center;
+    align-items: right;
+    margin-right: 4rem
   }
 
   figure {
@@ -92,6 +93,7 @@ body {
     flex-direction: wrap;
     justify-content: center;
     margin: auto;
+    
   }
   
   input,

@@ -4,22 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Drew Selden Portfolio Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Drew Selden</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Github</a>
+              <a class="dropdown-item" href="#">LinkedIn</a>
+              <a class="dropdown-item" href="#">Resume</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <header>
+      <h1>Drew Selden <br>seldend1@gmail.com</br></h1> 
       <nav>
         <ul>
           <li><a href="#About">About</a></li>
           <li><a href="#Work">Work</a></li>
           <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <ul>
           <li><a href="https://github.com/selden-CBC2021/">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/drew-selden-6a14371b0/">Linkedin</a></li>
+          <li><a href="https://docs.google.com/document/d/1eMgMDN0LYdiec8u8kMhyaZOWW1rFnJNKFl3DmIjenCk/edit?usp=sharing">Resume</a></li>
         </ul>
       </nav>
-    </header>
+    </header> -->
 
     <main>
       <section>
@@ -28,78 +62,56 @@
           <h2>About Me</h2>
           <div>
             <p>
-              Greetings! I am Drew Selden. I am an Michigan State University alumni with a Bachelor's degrees in Human Biology and Criminal Justice. I'm currently enrolled in a Coding Bootcamp to learn the basics of computer programming and web development. I'd like to use these new found skills and eventually be able to work in a field of rapidly growing technologies such as blockchain and/or fintech.  
+              Greetings! I am Drew Selden. I am an Michigan State University alumni with a Bachelor's degrees in Human Biology and Criminal Justice. I'm currently enrolled in a Coding Bootcamp to learn the basics of computer programming and web development. It's been quite the transition in terms of the way you have to think while coding especially in terms of JavaScript functionality and how they work
             </p>
             
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              natus recusandae amet nostrum odit, ut unde non sint, quia sed
-              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
-              accusamus tempore! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur
-              esse voluptatum, dolores dolor aspernatur neque laborum dolorum
-              dolorem repudiandae. Dignissimos eveniet sequi corporis tempore
-              ullam!
+              Since my enrollment in MSU's Coding Bootcamp I have learned the basics of HTML, CSS, and JavaScript as well as a little JQuery, NodeJS, API calling and functionality and many other practical skills. I'd like to use these new found skills and eventually be able to work in a field of rapidly growing technologies such as blockchain and/or fintech but really anywhere where I can get my feet wet with some real job experience.
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              natus recusandae amet nostrum odit, ut unde non sint, quia sed
-              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
-              accusamus tempore!
-            </p>
+            
           </div>
         </article>
         <article id="Work"></article>
           <h2>Work</h2>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              natus recusandae amet nostrum odit, ut unde non sint, quia sed
-              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
-              accusamus tempore! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Omnis cumque voluptatum fugiat autem nesciunt
-              harum amet eaque, officiis quidem dignissimos fuga excepturi
-              voluptas impedit ipsam voluptate sequi labore architecto quam?
+              The first major milestone has been reached in the bootcamp with completion of my first project(Click on the image above to see) The project was a Covid-19 Risk and Vaccine Assessment application that retrieves real-time Covid-19 cases and Covid-19 vaccine data based on the users geo-location.
+              It includes HTML, CSS, JS and Web-APIs to allow full functionality. I worked with a team of five during this project and the Github practice with branching, merge requests, and the kanban board was a huge benefit to learn how the workflow of a real job would look and feel like.
+            </p>
+              My latest achievement was the completion of a fully functioning weather app that will display your current location temp, wind, high, low, as well as a few other items and a search bar that will find any city in the U.S. of your choosing. The searches will be saved to local storage and displayed on the screen for quick comparisons.
+            <p>
+              
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              natus recusandae amet nostrum odit, ut unde non sint, quia sed
-              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
-              accusamus tempore! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Omnis cumque voluptatum fugiat autem nesciunt
-              harum amet eaque, officiis quidem dignissimos fuga excepturi
-              voluptas impedit ipsam voluptate sequi labore architecto quam?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              natus recusandae amet nostrum odit, ut unde non sint, quia sed
-              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
-              accusamus tempore!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              natus recusandae amet nostrum odit, ut unde non sint, quia sed
-              inventore odio, delectus iure! Eligendi vitae fuga blanditiis
-              accusamus tempore!
+              Another working application I made was a simple work day scheduler that included a current time display using moment.js as well as color codes to indicate if the time slot is in the past present or future and the ability to save each time slot to local storage.
             </p>
             </div>
           </div>
         </article>
       </section>
-      <aside>
+      <!-- <aside>
         <figure>
-              <figcaption>Project1</figcaption>
-              <a href="https://selden-cbc2021.github.io/Code-Refactoring/">
-              <img src="./assets/images/screenshot2.PNG" id="proj1" alt="graphic of screenshot of first project">
-              </a>
+          <figcaption>Click on an image to see the applications!</figcaption>
+              <a href="https://mxdragon.github.io/Covid19Risk-VaccineAssessment/">
+              <img src="./assets/images/covidtracker.png" width="750" height="500" id="proj1" alt="graphic of screenshot of first project">
+              </a> 
           </figure>
           <div>
-              <a href="https://via.placeholder.com/150/000000/FFFFFF/?text=Project2">
-              <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=Project2" id="proj2" alt="graphic with project2 text in it">
+              <caption>Covid Risk Assessment Application
+               <a href="https://github.com/MXDragon/Covid19Risk-VaccineAssessment">https://github.com/MXDragon/Covid19Risk-VaccineAssessment</a>
+              </caption>
+              <a href="https://selden-cbc2021.github.io/Weather-Dashboard/">
+              <img src="./assets/images/weatherdashboard.png" height="300" width="520" id="proj2" alt="graphic with weather dashboard text in it">
               </a>
-              <a href="https://via.placeholder.com/150/000000/FFFFFF/?text=Project3">
-                <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=Project3" id="proj2" alt="graphic with project3 text in it">
+              <caption>Weather Forecasting App
+                <a href="https://github.com/selden-CBC2021/Weather-Dashboard">https://github.com/selden-CBC2021/Weather-Dashboard</a>
+              </caption>
+              <a href="https://selden-cbc2021.github.io/Daily-Event-Planner/">
+                <img src="./assets/images/wds1.png" height="300" width="520" id="proj2" alt="graphic with work day scheduler text in it">
               </a>
+              <caption>Work Day Scheduling App
+                <a href="https://github.com/selden-CBC2021/Daily-Event-Planner">https://github.com/selden-CBC2021/Daily-Event-Planner</a>
+              </caption>
               <a href="https://via.placeholder.com/150/000000/FFFFFF/?text=Project4">
                 <img src="https://via.placeholder.com/150/000000/FFFFFF/?text=Project4" id="proj2" alt="graphic with project4 text in it">
               </a>
@@ -115,11 +127,13 @@
               <button>Submit</button>
             </form>
             </div>
-      </aside>
+      </aside> -->
     </main>
 
     <footer>
       <span>@2021 Thanks for visiting my Portfolio!</span>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
